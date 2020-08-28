@@ -7,8 +7,8 @@ def prime?(number)
   end
 
   i = 2
-  
-  while i < number 
+
+  while i < number
     if number % 2 == 0
       return false
     else
@@ -21,7 +21,7 @@ def prime?(number)
   # - if you don't get a whole number, try dividing it by
   # - - 3, 5, 7, 11
 
-  
+
 
 
   # notes
@@ -31,6 +31,6 @@ def prime?(number)
   # how do you create a range of numbers
 
   # how can you create a range of numbers so that it can be iterated over?
-  # - i think it's done with the .to_a 
-  
+  # - i think it's done with the .to_a
+
 end
