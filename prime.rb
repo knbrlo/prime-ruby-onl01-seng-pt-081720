@@ -18,16 +18,15 @@ def prime?(number)
   end
 
 
-  puts number_collection
-  
-  i = 2
-  if number % i == 0
-    i += 1
-    return false
-  else
-    i += 1
-    return true
-  end
+
+  # i = 2
+  # if number % i == 0
+  #   i += 1
+  #   return false
+  # else
+  #   i += 1
+  #   return true
+  # end
 
   # divide the number by 2
   # - if you get a whole number, if you do it is not a prime number
