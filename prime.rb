@@ -3,7 +3,7 @@ require 'pry'
 # Add  code here!
 def prime?(number)
 
-  binding.pry
+  # binding.pry
   # is the number greater than 1
   puts 'log 1'
   if number <= 1
