@@ -13,7 +13,10 @@ def prime?(number)
 
   puts 'log 3'
 
-  number_collection = collection(2..number)
+  (2..number).each do |num|
+    puts 'number #{num}'
+  end
+
 
   puts number_collection
   
