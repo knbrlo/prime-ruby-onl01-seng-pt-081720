@@ -13,7 +13,10 @@ def prime?(number)
 
   puts 'log 3'
 
+  number_collection = collection(2..number)
 
+  puts number_collection
+  
   i = 2
   if number % i == 0
     i += 1
