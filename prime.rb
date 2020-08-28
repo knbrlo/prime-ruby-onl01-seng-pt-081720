@@ -15,6 +15,11 @@ def prime?(number)
 
   (2..number).each do |num|
     puts "number #{num}"
+    if number % num == 0
+      return false
+    else
+      return true
+    end
   end
 
 
