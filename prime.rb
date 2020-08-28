@@ -7,13 +7,15 @@ def prime?(number)
   end
 
   i = 2
-
   while i < number
-    if number % 2 == 0
+    if number % i == 0
+      i += 1
       return false
     else
+      i += 1
       return true
     end
+
   end
 
   # divide the number by 2
