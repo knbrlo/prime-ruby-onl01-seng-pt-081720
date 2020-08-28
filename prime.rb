@@ -15,15 +15,12 @@ def prime?(number)
 
 
   i = 2
-  while i < number
-    if number % i == 0
-      i += 1
-      return false
-    else
-      i += 1
-      return true
-    end
-
+  if number % i == 0
+    i += 1
+    return false
+  else
+    i += 1
+    return true
   end
 
   # divide the number by 2
