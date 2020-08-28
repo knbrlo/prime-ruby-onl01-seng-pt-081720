@@ -1,6 +1,9 @@
+require 'pry'
+
 # Add  code here!
 def prime?(number)
 
+  binding.pry
   # is the number greater than 1
   if number <= 1
     return false
