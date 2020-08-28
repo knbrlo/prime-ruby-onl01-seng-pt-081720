@@ -2,23 +2,14 @@ require 'pry'
 
 def prime?(number)
 
-  # is the number greater than 1
-  if number <= 1
-    return false
-  end
-
-
-    if number % 2 == 0
-      return false
-    else
-      return true
+  is_prime = true
+  for i in 2..n-1
+    if n % 1 == 0
+      is_prime = false
     end
-
-
-
-
-
-  # notes
+  end
+  is_prime
+# notes
   # ----------
   # how can we determine if a number is prime
 
