@@ -5,9 +5,14 @@ def prime?(number)
 
   binding.pry
   # is the number greater than 1
+  puts 'log 1'
   if number <= 1
+    puts 'log 2'
     return false
   end
+
+  puts 'log 3'
+
 
   i = 2
   while i < number
