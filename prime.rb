@@ -14,7 +14,7 @@ def prime?(number)
   puts 'log 3'
 
   (2..number).each do |num|
-    puts 'number #{num}'
+    puts "number #{num}
   end
 
 
